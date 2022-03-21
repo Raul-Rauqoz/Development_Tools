@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "950f1cf4-120b-482c-a22f-5c3afc62b02f",
+		"name": "starwars_exam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get planets 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url_starwars}}/planets/1/",
+					"host": [
+						"{{base_url_starwars}}"
+					],
+					"path": [
+						"planets",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get root",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url_starwars}}",
+					"host": [
+						"{{base_url_starwars}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get people 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url_starwars}}/people/1/",
+					"host": [
+						"{{base_url_starwars}}"
+					],
+					"path": [
+						"people",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get films 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url_starwars}}/films/1/",
+					"host": [
+						"{{base_url_starwars}}"
+					],
+					"path": [
+						"films",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get starships 9",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url_starwars}}/starships/9/",
+					"host": [
+						"{{base_url_starwars}}"
+					],
+					"path": [
+						"starships",
+						"9",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get vehicles 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url_starwars}}/vehicles/4/",
+					"host": [
+						"{{base_url_starwars}}"
+					],
+					"path": [
+						"vehicles",
+						"4",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get species 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url_starwars}}/species/3/",
+					"host": [
+						"{{base_url_starwars}}"
+					],
+					"path": [
+						"species",
+						"3",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
